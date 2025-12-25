@@ -1,4 +1,5 @@
 /* Specific styling for the Booking.js component */
+
 .booking-page {
   display: flex;
   justify-content: space-between;
@@ -11,6 +12,7 @@
   padding: 20px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 .booking-form .form-group {
@@ -21,7 +23,8 @@
   flex-wrap: wrap;
 }
 
-.booking-form input, .booking-form textarea {
+.booking-form input,
+.booking-form textarea {
   padding: 10px;
   width: 100%;
   box-sizing: border-box;
@@ -56,10 +59,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 8px;
 }
 
 .booking-contact-info .contact-image {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
   margin-top: 20px;
   border-radius: 8px;
@@ -76,6 +81,7 @@
 
 .booking-form h1 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .booking-form h2 {
@@ -92,9 +98,9 @@
   width: 100%;
 }
 
-.booking-form input[type="text"], 
-.booking-form input[type="email"], 
-.booking-form input[type="tel"], 
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"],
 .booking-form input[type="date"] {
   width: calc(50% - 10px);
 }
@@ -103,6 +109,7 @@
   width: 100%;
 }
 
+/* Dropdown */
 .styled-dropdown {
   padding: 10px;
   width: 100%;
@@ -119,6 +126,7 @@
   border-color: #312c2c;
 }
 
+/* Messages */
 .success-message {
   color: green;
   font-weight: bold;
